@@ -1,0 +1,28 @@
+SuSql syntax:
+
+1) create table_name (attr1, attr2, ...) primarykey=attr/none;	#tested
+
+2) drop table_name;	#tested
+
+3) insert table_name (val1,val2,val3) (val1,val2,val3) .....;	#tested
+
+4) delete table_name where <condition>;
+
+5) select table_name */col1,col2 where <condition>;
+
+6) update table_name col1=val,col2=val where <condition>;
+
+7) truncate table_name;	#tested
+
+8) show tables;	#tested
+
+9) see table_name;	#tested
+
+10) save db_name;	#tested
+
+11) load db_name;	#tested
+
+12) new database;	#tested
+
+13) exit;
+
